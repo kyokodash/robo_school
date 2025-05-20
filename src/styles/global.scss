@@ -4,7 +4,29 @@
   font-family: $font-main;
 }
 
-.heading {
-  font-size: 50px;
-  color: red;
+h2 {
+  height: 48px;
+  font-family: $font-main;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+li > a {
+  font-family: $font-main;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+.button_primary {
+  width: 260px;
+  height: 79px;
+  padding: 25px 54px;
+  gap: 10px;
+  border-radius: 5px;
+  background-color: $primary-color;
+  color: #ffffff;
 }
