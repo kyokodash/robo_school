@@ -1,3 +1,4 @@
+@use 'fonts';
 @use 'reset';
 @use 'variables' as *;
 @use 'global';
@@ -6,7 +7,7 @@
 .header {
   background-color: $secondary-color;
   height: 70px;
-  width: 100%;
+  width: auto;
 }
 
 .navigation {
@@ -25,12 +26,50 @@
 
 //section1
 .section1 {
-  width: 1920px;
-  height: 100vh;
+  position: relative;
+  background-color: $secondary-color;
+  width: auto;
+  height: 1010px;
+}
+
+.section1_title {
+  position: absolute;
+  top: 274px;
+  left: 380px;
+  font-size: 70px;
+}
+
+.section1_text {
+  position: absolute;
+  top: 406px;
+  left: 380px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+.button_primary {
+  position: absolute;
+  top: 520px;
+  left: 380px;
 }
 
 .img {
+  position: absolute;
+  top: 93px;
+  left: 1057px;
   width: 516px;
   height: 917px;
+}
+
+.circle {
+  position: absolute;
+  top: 193px;
+  left: 924px;
+  width: 783px;
+  height: 783px;
+  border: 80px solid #ffffff;
+  border-radius: 50%;
 }
 //end of section1
