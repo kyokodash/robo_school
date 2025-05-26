@@ -1,32 +1,91 @@
 @use 'variables' as *;
 
-* {
+body {
   font-family: $font-main;
+  line-height: 160%;
 }
 
 h2 {
-  font-family: $font-main;
   font-weight: bold;
   font-size: 30px;
-  line-height: 160%;
-  color: #ffffff;
+  color: $white;
 }
 
-li > a {
-  font-family: $font-main;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 160%;
-  color: #ffffff;
+h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 130%;
 }
 
-.button_primary {
+.container {
+  padding: 0px 100px;
+
+  @media (max-width: 768px) {
+    padding: 0px 10px;
+  }
+}
+
+.container-sm {
+  padding: 0 378px;
+
+  @media (max-width: 768px) {
+    padding: 0px 10px;
+  }
+}
+
+.logo {
+  color: $white;
+  font-weight: bold;
+  font-size: 30px;
+  width: auto;
+  height: 48px;
+}
+
+.tel {
+  font-weight: 600;
+  font-size: 30px;
+  width: 255px;
+  height: 48px;
+}
+
+.btn {
   background-color: $primary-color;
-  color: #ffffff;
+  color: $white;
   font-size: 18px;
   width: 260px;
   height: 79px;
   padding: 25px 54px;
   gap: 10px;
   border-radius: 5px;
+
+  &--dark {
+    background-color: $secondary-color;
+    color: $white;
+    font-size: 18px;
+    width: 260px;
+    height: 79px;
+    padding: 25px 54px;
+    gap: 10px;
+    border-radius: 5px;
+  }
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.text-sm {
+  @extend .text;
+  font-size: 18px;
+}
+
+.text-md {
+  @extend .text;
+  font-size: 20px;
+}
+
+.text-lg {
+  @extend .text;
+  font-size: 30px;
 }
