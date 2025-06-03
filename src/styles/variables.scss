@@ -1,6 +1,17 @@
 $font-main: 'Jost', sans-serif;
 
-$primary-color: #d52027;
+$primary-color: #ffffff;
 $secondary-color: #141024;
-$white: #ffffff;
-$ghost-white: F9F9F9;
+$accent-color: #d52027;
+$ghost-white: #f9f9f9;
+
+$text-color-primary: $primary-color;
+$text-color-secondary: $secondary-color;
+$text-color-tertiary: $accent-color;
+
+$bg-color-primary: $primary-color;
+$bg-color-secondary: $secondary-color;
+$bg-color-tertiary: $ghost-white;
+
+$controls-bg-primary: $accent-color;
+$controls-color-secondary: $secondary-color;
