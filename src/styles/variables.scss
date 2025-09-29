@@ -1,17 +1,17 @@
 $font-main: 'Jost', sans-serif;
 
-$primary-color: #ffffff;
-$secondary-color: #141024;
-$accent-color: #d52027;
-$ghost-white: #f9f9f9;
+$text-primary: #ffffff;
+$text-secondary: #141024;
+$text-accent: #d52027;
 
-$text-color-primary: $primary-color;
-$text-color-secondary: $secondary-color;
-$text-color-tertiary: $accent-color;
+$bg-primary: #ffffff;
+$bg-secondary: #141024;
+$bg-alternate: #f9f9f9;
 
-$bg-color-primary: $primary-color;
-$bg-color-secondary: $secondary-color;
-$bg-color-tertiary: $ghost-white;
+$controls-bg: #d52027;
+$controls-bg-dark: #141024;
 
-$controls-bg-primary: $accent-color;
-$controls-color-secondary: $secondary-color;
+$controls-bg: #d52027;
+$controls-bg-dark: #141024;
+
+$transition-fast: 0.3s ease-in-out;
