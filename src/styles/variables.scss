@@ -1,17 +1,21 @@
 $font-main: 'Jost', sans-serif;
 
-$text-primary: #ffffff;
-$text-secondary: #141024;
-$text-accent: #d52027;
+// Цвета
+$primary-color: #141024;
+$secondary-color: #ffffff;
+$accent-color: #d52027;
 
-$bg-primary: #ffffff;
-$bg-secondary: #141024;
-$bg-alternate: #f9f9f9;
+// Цвета текста
+$text-color-primary: $primary-color;
+$text-color-secondary: $secondary-color;
 
-$controls-bg: #d52027;
-$controls-bg-dark: #141024;
+// Фоны
+$bg-color-primary: $secondary-color;
+$bg-color-accent: $accent-color;
 
-$controls-bg: #d52027;
-$controls-bg-dark: #141024;
-
-$transition-fast: 0.3s ease-in-out;
+// Кнопки и элементы управления
+$controls-bg-primary: $accent-color;
+$controls-bg-primary-hover: #b9191d;
+$controls-bg-secondary: $primary-color;
+$controls-bg-secondary-hover: #282148;
+$controls-color-primary: $secondary-color;
