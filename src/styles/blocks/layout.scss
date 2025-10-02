@@ -1,0 +1,59 @@
+@use '../variables' as *;
+
+//! header
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 0 100px;
+  background-color: $primary-color;
+  color: $text-color-secondary;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+  }
+
+  .header-nav {
+    &__list {
+      display: flex;
+      gap: 40px;
+      font-size: 20px;
+    }
+  }
+}
+//! main
+.main {
+  flex-grow: 1;
+}
+
+//! footer
+
+.footer {
+  height: 159px;
+  padding: 0 100px;
+  background-color: $primary-color;
+  color: $text-color-secondary;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 159px;
+  }
+
+  .footer-top-block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-bottom-block {
+    &__copyright {
+      font-size: 16px;
+      color: rgba($text-color-secondary, 0.7);
+    }
+  }
+}
