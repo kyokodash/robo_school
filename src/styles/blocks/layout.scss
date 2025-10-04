@@ -1,0 +1,60 @@
+@use '../variables' as *;
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 500;
+  background-color: $bg-color-secondary;
+  color: $text-color-secondary;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    gap: 20px;
+
+    .header-nav {
+      &__list {
+        display: flex;
+        gap: 40px;
+        font-size: 20px;
+      }
+
+      &__link {
+        color: $text-color-secondary;
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: $bg-color-secondary;
+  color: $text-color-secondary;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0;
+
+    .footer-top-block {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .footer-bottom-block {
+      &__copyright {
+        color: $text-color-tertiary;
+      }
+    }
+  }
+}
