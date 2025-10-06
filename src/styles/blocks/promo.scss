@@ -1,2 +1,39 @@
+@use '../variables' as *;
+
 .promo {
+  height: calc(100dvh - 108px);
+  max-height: 972px;
+  position: relative;
+  overflow: hidden;
+  background-color: $bg-color-secondary;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 516px;
+    margin-top: 116px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 70px;
+    color: $text-color-secondary;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 478px;
+    color: $text-color-secondary;
+    margin: 20px 0 50px 0;
+  }
+
+  &__img {
+    position: absolute;
+    top: 54px;
+    left: 924px;
+    width: 783px;
+    height: auto;
+  }
 }
