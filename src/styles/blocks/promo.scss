@@ -13,26 +13,28 @@
     align-items: flex-start;
     max-width: 516px;
     margin-top: 116px;
+    color: $text-color-secondary;
   }
 
   &__title {
     font-weight: 600;
     font-size: 70px;
-    color: $text-color-secondary;
   }
 
   &__description {
-    font-weight: 400;
     font-size: 20px;
     max-width: 478px;
-    color: $text-color-secondary;
-    margin: 20px 0 50px 0;
+    margin: 20px 0 0 0;
+  }
+
+  &__btn {
+    margin-top: 50px;
   }
 
   &__img {
     position: absolute;
     top: 54px;
-    left: 924px;
+    left: 49%;
     width: 783px;
     height: auto;
   }
