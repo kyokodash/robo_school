@@ -1,0 +1,32 @@
+@use '../variables' as *;
+
+.about {
+  &__description {
+    font-size: 30px;
+    max-width: 890px;
+  }
+
+  &__stats {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  &__stat-item {
+    flex-basis: 260px;
+  }
+
+  &__stat-value {
+    font-size: 70px;
+    font-weight: 600;
+    color: $text-color-accent;
+  }
+
+  &__stat-caption {
+    font-size: 18px;
+    color: $text-color-quaternary;
+  }
+}
